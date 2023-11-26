@@ -1,0 +1,174 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+.brand{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: #14A44D;
+}
+.home, .about{
+    text-decoration: none;
+    width: 70px;
+    height: 35px;
+    margin:0px auto;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 100;
+    color: #14A44D;
+}
+.bg_text{
+    width: 100%;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 10px;
+}
+.text_id p:nth-child(1){
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    margin: 0px;
+    text-shadow: 4px 4px black;
+}
+.footer{
+    display: flex;
+    height: 20vh;
+    background-color: #D1E7DD;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.text_id button{
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+    color: white;
+}
+.text_id a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #004D40;
+}
+.text_id button:hover{
+    color: black;
+    background-color:#64FFDA;
+    
+}
+.search_box{
+    max-width: 80%;
+    width: 600px;
+    border: 1px solid green;
+    margin: 15px auto;
+    align-items: center;
+    display: flex;
+    padding: 0px 5px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #C8E6C9;
+}
+.search_box input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: #C8E6C9;
+}
+.search_box i{
+    font-size: 18px;
+    padding: 0px 5px;
+    color: #14A44D;
+}
+.single_meal{
+    display: flex;
+    column-gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mealplate{
+    width: 280px;
+    object-fit: cover;
+    box-shadow: 0px 0px 1px 0px rgba(2, 2, 1, 0.7);
+    text-align: center;
+    /* height: 380px; */
+    margin: 1em auto;
+    border-radius: 5px;
+    color: green;  
+    border: none; 
+}
+.mealplate h4{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+.mealplate img{
+width: 100%;
+border-radius: 5px 5px 0px 0px;
+}
+.error_four img{
+width: 400px;
+margin: 10px auto;
+}
+.error_four{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.error_four h4{
+    text-align: center;
+    color: green;
+}
+.error_four button{
+    max-width: 100%;
+    width: 150px;
+    padding: 5px;
+    margin: 35px auto;
+    border: none;
+    border-radius: 15px 0px;
+    box-shadow: 0px 2px rgba(2, 2, 1, 0.5);
+    justify-self: center;
+    justify-items: center;
+    display: flex;
+ 
+}
+button a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    text-align: center;
+
+}
+button:hover{
+    border-radius: 2px;
+    box-shadow: 0px 0px;
+    outline-style: solid;
+    outline-color: green;
+}
+.home:hover{
+color: black;
+border: 2px solid #004D40;
+align-items: center;
+font-weight: bold;
+}
+.about:hover{
+    color: black;
+    border: 2px solid #004D40;
+    align-items: center; 
+    font-weight: bold;
+}
+.brand:hover{
+    color: #1B5E20;
+}
+.singleDesc img{
+    object-fit: cover;
+    width: 100%;
+    height: 390px;
+    margin-bottom: 10px;
+}
